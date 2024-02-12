@@ -12,7 +12,7 @@ body .index{
 }
 
 .index .menulist{
-    background-image: url(/img/index.jpg.jpg);
+    background-image: url(img/index.jpg.jpg);
     background-position:center ;
     background-size: cover;
     height: 100vh;
@@ -162,7 +162,7 @@ body.menu{
         font-family: 'Times New Roman', Times, serif;
 }
     .menu {
-        background-image: url(/img/menu.jpg);
+        background-image: url(img/menu.jpg);
         background-position: center;
         background-size: cover;
         height: 200vh;
@@ -242,7 +242,7 @@ body.menu{
 
 
  .contact {
-        background-image: url(/img/contact.png.jpg);
+        background-image: url(img/contact.png.jpg);
         background-position:center;
         background-size: cover;
         height: 200vh;
