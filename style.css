@@ -1,0 +1,308 @@
+:root{
+    --violet:rgb(72, 0, 138);
+    --blue:rgb(0, 0, 206);
+    --black:rgb(0, 0, 0);
+    --litelyred:rgb(255, 16, 16);
+}
+
+body .index{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.index .menulist{
+    background-image: url(/img/index.jpg.jpg);
+    background-position:center ;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.index header .tag a{
+    text-decoration: none;
+    color: var(--violet);
+}
+.index header{
+    display: flex;
+    padding:2em 0em 0em 2em;
+    
+}
+.index .heading{
+    flex:2;
+    font-size: 6em;
+    transition-duration: 3s;
+    transition-property: all;
+    margin:50px 0x 0px 0px;
+    color:var(--black);
+   
+}
+.index nav .tag{
+    flex:2;
+    display:flex;
+    padding-left:500px;
+    
+}
+.index nav .tag{
+    flex:1;
+    background-size: 20px;
+    background-color: rgb(149, 255, 0);
+    height: 20px;
+    width:0.5px;
+    display: inline-flex;
+    padding:2px;
+    margin:70px;
+    text-align: center;
+    border-radius: 10px;
+}
+.index nav a:hover{
+    color: red;
+}
+.index .heading:hover{
+    transition:rgb(0, 0, 206) 3s 1s linear;
+    
+}
+.index .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:3em;
+   
+
+}
+.index .info address{
+    color:var(--violet);
+    font-size:25px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    background-color: aquamarine;
+    height: 30px;
+    width: 500px;
+    padding: 8px 5px;
+}
+.index .info tag{
+    color:var(--blue);
+    font-size:50px;
+    font-weight: bolder;
+}
+.index .info .two{
+    color:red;
+    padding:20px;
+}
+.index nav .tag{
+    padding-left: 25px;
+}
+
+.index .animate img{
+    width: 50px;
+    animation: animate 7s  linear infinite;
+}
+.index .animate{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: space-around;
+    bottom: -70px;
+}
+@keyframes animate{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        
+        opacity: 1;
+    }
+    75%{
+      
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+    
+}
+.index .animate img:nth-child(1){
+    animation-delay: 2s;
+    width: 40px;
+}
+.index .animate img:nth-child(2){
+    animation-delay: 1s;
+    width:60px;
+}
+.index .animate img:nth-child(3){
+    animation-delay: 3s;
+    width: 50px;
+    height: 50px;
+}
+.index .animate img:nth-child(4){
+    animation-delay: 4.5s;
+    width:40px;
+    height: 40px;
+}
+.index .animate img:nth-child(5){
+    animation-delay: 2s;
+    width: 70px;
+}
+.index .animate img:nth-child(6){
+    animation-delay: 5s;
+    width: 80px;
+}
+.index .animate img:nth-child(7){
+    animation-delay: 7s;
+    width: 40px;
+}
+
+
+body.menu{
+        margin:0;
+        padding:0;
+        font-family: 'Times New Roman', Times, serif;
+}
+    .menu {
+        background-image: url(/img/menu.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 200vh;
+    }
+    .menu a{
+        display:inline-flex;
+        padding: 5px 2em 5px 3em;
+        text-align: center;
+        text-decoration: none;
+        background-size: 0.5px;
+        background-color: aqua;
+        height: 23px;
+        width: 9vw;
+        border-radius: 16px;
+        margin:30px 20px 30px 20px;
+        text-align:center;
+        font-size: 20px;
+        margin-left: 3em;
+       
+    }
+    .menu a:hover{
+        color:red;
+    }
+  .menu  .table{
+        font-size:18px;
+        display: grid;  
+        grid-template-columns:1fr ;
+        
+    }
+   .menu table{
+        width:100%;
+        padding:1em;
+        margin:20px;
+        border: 1em solid black;
+        flex:100%;
+    }
+ .menu   .table th{
+        color:rgb(138, 0, 0);
+        font-size: 1.4em;
+        padding:2em;
+       text-decoration: underline;
+       flex: 100%;
+       text-align:center;
+       
+    }
+ .menu   .table td{
+        padding:5px 5px;
+    }
+
+  .menu  button{
+        width:15vw;
+        margin-top:1.5em;
+        margin-left: 45%;
+        border: 10px;
+        background-color: aqua;
+        padding:8px;
+        border-radius: 15px;
+        color: blue;
+        font-size: 18px;
+    
+    }
+   .menu button:hover{
+        color: green;
+    }
+   .menu body a:hover{
+        background-color: rgb(56, 153, 244);
+    }
+
+    .index .tag a{
+        padding:10px 20px 10px 20px;
+        font-size: 20px;
+        margin:10px 10px;
+        text-align: center;
+        border-radius: 15px;
+        background-color: aqua;
+  }
+
+
+ .contact {
+        background-image: url(/img/contact.png.jpg);
+        background-position:center;
+        background-size: cover;
+        height: 200vh;
+        width: auto;
+    }
+    
+.contact a{
+        display: inline-flex;
+        font-size: 20px;
+        text-decoration: none;
+        margin:16px 16px;
+        color: rgb(9, 239, 178);
+        background-color:black;
+        border-radius: 10px;
+        padding:5px 7px;
+    }
+    
+.contact a:hover{
+        color: antiquewhite;
+    }
+  .contact  .name{
+        font-size: 40px;
+        margin:25px 40px;
+        color: antiquewhite;
+        font-weight:bolder;
+    }
+   .contact address{
+        color:azure;
+        margin: 20px 40px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+  .contact  contact{
+        color:azure;
+        margin: 20px 40px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+  .contact  email{
+        color:rgb(255, 4, 4);
+        margin: 20px 40px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+ .contact   h4{
+        font-size: 30px;
+        text-decoration: underline;
+        color:rgb(255, 255, 255);
+        font-weight: bolder;
+        margin:70px 40px;
+        padding: 20px 10px;
+        margin-bottom: 0px;
+    }
+ .contact   p{
+        font-size: 25px;
+        color: rgb(225, 241, 0);
+        margin:10px 10px;
+        padding:5px 20px;
+        font-weight: bolder;
+        background-color: rgb(0, 0, 0);
+    
+    }
+      
